@@ -3,7 +3,7 @@ resources:
     type: image
     integration: shipdeploy
     pointer:
-      sourceName: "shippablesamplesshippablesamplesshippablesamplesshippablesamples/samplepipelinesdemo"
+      sourceName: "shippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamples/samplepipelinesdemo"
       isPull: false
     seed:
       versionName: "latest"
