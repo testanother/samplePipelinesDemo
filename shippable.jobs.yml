@@ -3,6 +3,10 @@ jobs:
     type: manifest
     steps:
      - IN: pipelines-demo-image
+     - IN: pipelines-demo-image
+     - IN: pipelines-demo-image
+     - IN: pipelines-demo-image
+     - IN: pipelines-demo-image
      - TASK: managed
 
   - name: deploy-pipelines-demo
