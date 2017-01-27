@@ -15,6 +15,7 @@ jobs:
       - IN: pipelines-demo-manifest
       - IN: docker-options
       - IN: ecs-cluster
+      - IN: replicas
       - TASK: managed
         deployMethod: upgrade
 
