@@ -11,6 +11,8 @@ jobs:
 
   - name: deploy-pipelines-demo
     type: deploy
+    flags:
+      - job-flag
     steps:
       - IN: pipelines-demo-manifest
       - IN: docker-options
