@@ -7,6 +7,42 @@ resources:
       isPull: false
     seed:
       versionName: "latest"
+      
+  - name: pipelines-demo-image2
+    type: image
+    integration: shipdeploy
+    pointer:
+      sourceName: "shippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamples/samplepipelinesdemo"
+      isPull: false
+    seed:
+      versionName: "latest"
+      
+  - name: pipelines-demo-image3
+    type: image
+    integration: shipdeploy
+    pointer:
+      sourceName: "shippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamples/samplepipelinesdemo"
+      isPull: false
+    seed:
+      versionName: "latest"
+      
+  - name: pipelines-demo-image4
+    type: image
+    integration: shipdeploy
+    pointer:
+      sourceName: "shippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamples/samplepipelinesdemo"
+      isPull: false
+    seed:
+      versionName: "latest"
+      
+  - name: pipelines-demo-image5
+    type: image
+    integration: shipdeploy
+    pointer:
+      sourceName: "shippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamples/samplepipelinesdemo"
+      isPull: false
+    seed:
+      versionName: "latest"
 
   - name: docker-options
     type: dockerOptions
