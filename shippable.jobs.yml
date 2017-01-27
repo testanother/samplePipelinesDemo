@@ -2,7 +2,7 @@ jobs:
   - name: pipelines-demo-manifest
     type: manifest
     steps:
-     - IN: pipelines-demo-image1
+     - IN: pipelines-demo-image
      - IN: pipelines-demo-image2
      - IN: pipelines-demo-image3
      - IN: pipelines-demo-image4
