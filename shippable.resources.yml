@@ -43,6 +43,12 @@ resources:
       isPull: false
     seed:
       versionName: "latest"
+  - name: replicas
+    type: replicas
+    version:
+      count: 2
+    flags:
+      - replicas
 
   - name: docker-options
     type: dockerOptions
@@ -56,10 +62,3 @@ resources:
     pointer:
       sourceName : "my-cluster" #name of the cluster to which we are deploying
       region: "us-west-2"
-      
-   - name: replicas                              #required
-     type: replicas                              #required
-     version:
-       count: 1  
-     flags:
-       - replicas
