@@ -35,10 +35,10 @@ jobs:
       - TASK:
         - script: echo 'This block executes when the TASK starts'
         
-  - name: deploy-pipelines-demo
+  - name: runSh3
     type: runSh
     steps:
-      - IN: pipelines-demo-manifest
+      - IN: deploy-pipelines-demo
       - TASK:
         - script: echo 'This block executes when the TASK starts'
 
