@@ -50,3 +50,12 @@ jobs:
       - IN: runSh3
       - TASK:
         - script: echo 'This block executes when the TASK starts'
+
+
+  - name: runSh5
+    type: runSh
+    steps:
+      - IN: runSh4
+      - TASK:
+        - script: echo 'This block executes when the TASK starts'
+
