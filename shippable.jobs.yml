@@ -65,4 +65,6 @@ jobs:
       - IN: runSh5
       - TASK:
         - script: echo 'This block executes when the TASK starts'
+    flags:
+      - dv
 
