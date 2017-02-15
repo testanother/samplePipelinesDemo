@@ -77,7 +77,7 @@ jobs:
     flags:
       - dv
   - name: runSh8-runSh8-runSh8-runSh8-runSh8-runSh8
-    type: runSh
+    type: runCi
     steps:
       - IN: runSh7
       - TASK:
