@@ -1,6 +1,6 @@
 resources:
   - name: pipelines-demo-image
-    type: ciRepo
+    type: image
     integration: shipdeploy
     pointer:
       sourceName: "shippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamples/samplepipelinesdemo"
